@@ -1,14 +1,11 @@
 package com.rariom.rest.webservices.restfulwebservices.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.Resource;
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import org.springframework.hateoas.*;
-
-import javax.swing.text.html.parser.Entity;
 import javax.validation.Valid;
 import java.net.URI;
 import java.util.List;
