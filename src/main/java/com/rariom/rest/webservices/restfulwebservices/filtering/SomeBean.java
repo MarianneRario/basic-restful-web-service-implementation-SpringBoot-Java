@@ -1,13 +1,11 @@
 package com.rariom.rest.webservices.restfulwebservices.filtering;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonFilter;
 
-@JsonIgnoreProperties(value = {"f1", "f2"})
+@JsonFilter("SomeBeanFilter")
 public class SomeBean {
     private String f1;
     private String f2;
-    // @JsonIgnore // this won't be sent out in the response
     private String f3;
 
     public SomeBean(String f1, String f2, String f3) {
