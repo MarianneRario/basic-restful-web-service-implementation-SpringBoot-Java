@@ -1,7 +1,6 @@
 package com.rariom.rest.webservices.restfulwebservices.user;
 
 import io.swagger.v3.oas.annotations.media.Schema;
-import io.swagger.v3.oas.annotations.responses.ApiResponse;
 
 import javax.validation.constraints.Past;
 import javax.validation.constraints.Size;

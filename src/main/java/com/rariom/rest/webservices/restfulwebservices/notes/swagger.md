@@ -9,4 +9,4 @@
      - in this bean, we will configure that we will use Swagger2
      - all the paths
      - all the apis
-2. 
+2. Add @Schema annotation in User.java class to give the consumer an idea what should be the required input
