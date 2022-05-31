@@ -1,5 +1,5 @@
 ### Versioning
-One of the toughest problem to handle as far as API are concern because there are many choices
+One of the toughest problems to handle as far as API are concern because there are many choices
 
 - Media type versioning ( aka "content negotiation" or "accept header" )
   - GitHub
@@ -7,7 +7,7 @@ One of the toughest problem to handle as far as API are concern because there ar
   - Microsoft
 - URI Versioning
   - Twitter
-- Parameter Versioning
+- Request Parameter Versioning
   - Amazon
 - Factors
   - URI Pollution
